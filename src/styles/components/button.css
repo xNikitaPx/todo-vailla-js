@@ -1,0 +1,18 @@
+.button {
+  border: 1px solid var(--color-dark-2);
+  border-radius: var(--border-radius);
+  padding: 12px;
+  height: var(--input-height);
+  line-height: 1;
+  background-color: var(--color-dark-2);
+  color: var(--color-gray-1);
+
+  &:hover {
+    color: var(--color-dark-2);
+    background-color: transparent;
+  }
+
+  &:active {
+    scale: 1.05;
+  }
+}
